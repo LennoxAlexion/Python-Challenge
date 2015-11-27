@@ -1,0 +1,8 @@
+x= 'g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.'
+y= ''
+for i in x:
+	if i>='a' and i<='z':
+		y+=chr((ord(i)+2)%97%26+97)  //to handle ascii value after 'z' to repeat from 'a'
+	else:
+		y+=i
+print(y)
